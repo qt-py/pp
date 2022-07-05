@@ -26,9 +26,13 @@ def NOR_logicFunction(x):
   output_NOT = NOT_logicFunction(output_OR)
   return output_NOT
 
+
 test1 = np.array([0, 1])
+
 test2 = np.array([1, 1])
+
 test3 = np.array([0, 0])
+
 test4 = np.array([1, 0])
 
 print(""NOR({}, {}) = {}"".format(0, 1, NOR_logicFunction(test1)))
