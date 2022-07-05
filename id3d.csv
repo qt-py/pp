@@ -1,0 +1,10 @@
+"import pandas as pd
+ 
+# initialize list of lists
+data = [['sunny','hot','high','weak','no' ], ['sunny','hot','high','strong','no'], ['sunny','mild','high','weak','no'],['overcast','hot','high','weak','yes'],['rain','mild','high','weak','yes']]
+ 
+# Create the pandas DataFrame
+df = pd.DataFrame(data, columns=['outlook', 'temperature','humidity','wind','answer'])
+ 
+# print dataframe.
+df"
